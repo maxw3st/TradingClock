@@ -1,5 +1,5 @@
  TradingClock
-FX trading clock app
+is an FX trading clock app
 This is a little clock for FX traders. It contains a drop down menu which allows the user to select the time in London, 
 Paris, Tokyo, Sydney, and New York. Each timezone has its own clock tower image. The image serves as a button to close 
 the app.
