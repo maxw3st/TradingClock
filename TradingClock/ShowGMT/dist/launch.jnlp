@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>ShowGMT</title>
+        <vendor>sabaki</vendor>
+        <homepage href=""/>
+        <description>ShowGMT</description>
+        <description kind="short">ShowGMT</description>
+    <icon href="ringsIcon32.jpg" kind="default"/>
+<offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="ShowGMT.jar" main="true"/>
+    <jar href="lib/beansbinding-1.2.1.jar"/>
+</resources>
+    <application-desc main-class="org.me.gmtimageapp.GMTtime">
+    </application-desc>
+</jnlp>
